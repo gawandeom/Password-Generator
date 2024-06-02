@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="wraper">
+        <div class="header">
+        <h1 id="NewPass"></h1>
+        <i class="ri-file-copy-line" id="cpybtn"></i>
+    </div>
+    <div class="middle">
+    <div class="rp">
+        <input type="range" id="range" max="20" min="6" value="8">
+        <p id="rangeVal"></p>
+    </div>
+    <div class="main">
+        <input type="checkbox" name="UpperCase" id="UpperCase">
+        <label for="UpperCase">UpperCase</label>
+        <br>
+        <input type="checkbox" name="LowerCase" id="LowerCase">
+        <label for="Lowercase">Lowercase</label>
+        <br>
+        <input type="checkbox" name="Number" id="Number">
+        <label for="Number">Number</label>
+        <br>
+        <input type="checkbox" name="Symbol" id="Symbol">
+        <label for="Symbol">Symbol</label>
+    </div>
+    
+    <button id="btn">Submit</button>
+</div>
+</div>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
